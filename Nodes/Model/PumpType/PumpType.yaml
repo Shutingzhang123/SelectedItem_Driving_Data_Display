@@ -1,0 +1,34 @@
+Name: PumpType
+Type: FolderType
+Children:
+- Name: WaterPump
+  Type: WaterPumpType
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: GPH
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX000"
+- Name: WaterPumpType
+  Id: g=3e350dada02312a7da13e6df9cd29d23
+  Supertype: BaseObjectType
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: GPH
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX000"
